@@ -1,4 +1,10 @@
-public class Sandwich
+public class Sandwich implements MenuItem
 {
-    this.Sandwich = new Sandwich ([int price] , [String Name]);
-}
+   private double Price;
+   private String Name;
+   
+   public Sandwich (double Price,String Name){
+    this.Name = Name;
+    this.Price= Price;
+  }
+  {
